@@ -1,12 +1,12 @@
 {
-  "name": "node-web-scrape",
+  "name": "offscore",
   "version": "0.0.1",
   "description": "Scrape le web.",
   "main": "server.js",
   "author": "Scotch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotch-io/node-web-scraper"
+    "url": "git+https://github.com/mtimsit/OffScore.git"
   },
   "dependencies": {
     "artoo-js": "^0.4.0",
@@ -14,5 +14,14 @@
     "ejs": "^2.5.7",
     "express": "latest",
     "request": "latest"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mtimsit/OffScore/issues"
+  },
+  "homepage": "https://github.com/mtimsit/OffScore#readme",
+  "devDependencies": {},
+  "license": "ISC"
 }
