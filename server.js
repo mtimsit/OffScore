@@ -281,7 +281,10 @@ function getTeamInfo(teamName)
   return teamInfo;
 }
 
+var port = (process.env.PORT || 8080)
 
-app.listen('8081')
+app.listen(port, function () {
+  console.log("Server listening on port " + port);
+});
 console.log('Magic happens on port 8081');
 exports = module.exports = app;
