@@ -1,0 +1,90 @@
+[
+    {
+        "homeTeam": "DET",
+        "awayTeam": "CHA",
+        "homeTeamLogo": "images/logos/DET_logo.svg",
+        "awayTeamLogo": "images/logos/CHA_logo.svg",
+        "scoreDiff": "11-15 PTS",
+        "color": "alert-danger"
+    },
+    {
+        "homeTeam": "IND",
+        "awayTeam": "BKN",
+        "homeTeamLogo": "images/logos/IND_logo.svg",
+        "awayTeamLogo": "images/logos/BKN_logo.svg",
+        "scoreDiff": "7-10 PTS",
+        "color": "alert-warning"
+    },
+    {
+        "homeTeam": "ORL",
+        "awayTeam": "MIA",
+        "homeTeamLogo": "images/logos/ORL_logo.svg",
+        "awayTeamLogo": "images/logos/MIA_logo.svg",
+        "scoreDiff": "7-10 PTS",
+        "color": "alert-warning"
+    },
+    {
+        "homeTeam": "WAS",
+        "awayTeam": "PHI",
+        "homeTeamLogo": "images/logos/WAS_logo.svg",
+        "awayTeamLogo": "images/logos/PHI_logo.svg",
+        "scoreDiff": "4-6 PTS",
+        "color": "alert-info"
+    },
+    {
+        "homeTeam": "BOS",
+        "awayTeam": "MIL",
+        "homeTeamLogo": "images/logos/BOS_logo.svg",
+        "awayTeamLogo": "images/logos/MIL_logo.svg",
+        "scoreDiff": "1-3 PTS",
+        "color": "alert-success"
+    },
+    {
+        "homeTeam": "MEM",
+        "awayTeam": "NOP",
+        "homeTeamLogo": "images/logos/MEM_logo.svg",
+        "awayTeamLogo": "images/logos/NOP_logo.svg",
+        "scoreDiff": "11-15 PTS",
+        "color": "alert-danger"
+    },
+    {
+        "homeTeam": "DAL",
+        "awayTeam": "ATL",
+        "homeTeamLogo": "images/logos/DAL_logo.svg",
+        "awayTeamLogo": "images/logos/ATL_logo.svg",
+        "scoreDiff": "1-3 PTS",
+        "color": "alert-success"
+    },
+    {
+        "homeTeam": "UTA",
+        "awayTeam": "DEN",
+        "homeTeamLogo": "images/logos/UTA_logo.svg",
+        "awayTeamLogo": "images/logos/DEN_logo.svg",
+        "scoreDiff": "7-10 PTS",
+        "color": "alert-warning"
+    },
+    {
+        "homeTeam": "SAS",
+        "awayTeam": "MIN",
+        "homeTeamLogo": "images/logos/SAS_logo.svg",
+        "awayTeamLogo": "images/logos/MIN_logo.svg",
+        "scoreDiff": "7-10 PTS",
+        "color": "alert-warning"
+    },
+    {
+        "homeTeam": "PHX",
+        "awayTeam": "POR",
+        "homeTeamLogo": "images/logos/PHX_logo.svg",
+        "awayTeamLogo": "images/logos/POR_logo.svg",
+        "scoreDiff": "1-3 PTS",
+        "color": "alert-success"
+    },
+    {
+        "homeTeam": "SAC",
+        "awayTeam": "HOU",
+        "homeTeamLogo": "images/logos/SAC_logo.svg",
+        "awayTeamLogo": "images/logos/HOU_logo.svg",
+        "scoreDiff": "1-3 PTS",
+        "color": "alert-success"
+    }
+]

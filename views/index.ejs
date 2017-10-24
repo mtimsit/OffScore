@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>OffScore</title>
+    <link rel="stylesheet" href="css/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="bg-dark">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">OFFSCORE</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-outline-primary2 my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+    <div class="container bg-dark">
+      <div class="row">
+          <% for (var i =0;i<finalScoreList.length;i++) {%>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-1">
+              <div class="card border-secondary">
+                <div class="card-header text-center bg-white">
+                    <img src="<%=finalScoreList[i].awayTeamLogo%>" class="rounded d-inline mr-xs-2 mr-lg-4" alt="images/logos/NBA_logo.svg" height="100px" width="100px">
+                    <h6 class="d-inline"><%=finalScoreList[i].awayTeam%></h6>
+                    <h6 class="d-inline">-</h6>
+                    <h6 class="d-inline"><%=finalScoreList[i].homeTeam%></h6>
+                    <img src="<%=finalScoreList[i].homeTeamLogo%>" class="rounded d-inline ml-xs-2 ml-lg-4" alt="images/logos/NBA_logo.svg" height="100px" width="100px">
+                </div>
+                <div class="card-body">
+                </div>
+                <div class="card-footer text-center <%=finalScoreList[i].color%>">
+                    <p class="d-inline"><%=finalScoreList[i].scoreDiff%></p>
+                </div>
+              </div>
+            </div>
+            <% } %>
+      </div>
+    </div>
+
+    
+    <script src="css/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
